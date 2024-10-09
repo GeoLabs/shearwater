@@ -1,0 +1,24 @@
+name: shearwater
+channels:
+- conda-forge
+- defaults
+dependencies:
+- pip
+- python>=3.9,<3.12
+- pywps>=4.5.2,<4.7
+- jinja2
+- click
+- psutil
+- intake
+- intake-esm
+- pydantic<2
+- requests
+- aiohttp
+- ipykernel
+- scipy
+- birdy
+- tensorflow=2.15.0
+- numpy=1.26.0
+# tests
+- pytest
+- pandoc
